@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram id="6xXLWl-He4y_bU7bNApJ" name="Page-1">
+    <mxGraphModel dx="794" dy="446" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=none;" parent="1" source="xdoU0K1oKpiC5rIBIAHy-1" target="xdoU0K1oKpiC5rIBIAHy-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-1" value="Start" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=none;" parent="1" source="xdoU0K1oKpiC5rIBIAHy-2" target="xdoU0K1oKpiC5rIBIAHy-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-2" value="&lt;i&gt;Input File&lt;/i&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="190" y="80" width="87.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" parent="1" source="xdoU0K1oKpiC5rIBIAHy-4" target="xdoU0K1oKpiC5rIBIAHy-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-4" value="i = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="85" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="isxOkCZYUrV-S44IxctT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=none;" parent="1" source="xdoU0K1oKpiC5rIBIAHy-6" target="xdoU0K1oKpiC5rIBIAHy-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="260" />
+              <mxPoint x="378" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-6" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;for stream[i]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;ol style=&quot;padding-top: 0px; padding-bottom: 0px;&quot;&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Menghitung &lt;i&gt;Mean&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Menghitung &lt;i&gt;STD&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Menghitung &lt;i&gt;Median&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Menghitung &lt;i&gt;Range&lt;/i&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Menghitung Q1&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Menghitung Q3&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Menghitung IQR&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Menentukan &lt;i&gt;Min Value&lt;/i&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Menentukan &lt;i&gt;Max Value&lt;/i&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Menghitung &lt;i&gt;Kurtosis&lt;/i&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Menghitung &lt;i&gt;Skewness&lt;/i&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Menentukan &lt;i&gt;Stasiun&lt;/i&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Menentukan &lt;i&gt;Channel&lt;/i&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Menentukan Kelas&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="420" y="85" width="180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="isxOkCZYUrV-S44IxctT-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=none;" parent="1" source="xdoU0K1oKpiC5rIBIAHy-8" target="xdoU0K1oKpiC5rIBIAHy-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-8" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="260" y="270" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="isxOkCZYUrV-S44IxctT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=none;" parent="1" source="xdoU0K1oKpiC5rIBIAHy-10" target="xdoU0K1oKpiC5rIBIAHy-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-10" value="i &amp;gt; jumlah &lt;i&gt;trace&lt;/i&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="256.88" y="135" width="81.25" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-12" value="&lt;i&gt;End&lt;/i&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-16" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="315" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xdoU0K1oKpiC5rIBIAHy-17" value="Ya" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="196.88" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="isxOkCZYUrV-S44IxctT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.041;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;fillColor=none;" parent="1" source="xdoU0K1oKpiC5rIBIAHy-10" target="xdoU0K1oKpiC5rIBIAHy-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
