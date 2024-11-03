@@ -93,7 +93,7 @@ def predict_classes(model, class_mapping, merged_df):
 st.title("Sistem Identifikasi Arah Guguran Merapi Berdasarkan Sinyal Seismik")
 
 # Pilih model
-model_path = 'Model/model_KNN_9010.pkl'
+model_path = 'knn_model_to_be_implemented.pkl'
 
 model, class_mapping = load_model_and_mapping(model_path)
 
@@ -134,6 +134,7 @@ if uploaded_file is not None:
     st.subheader("Prediction Results")
     st.write(result_df)
     
+    # Calculate and display prediction percentages
     prediction_counts = result_df['predicted_class'].value_counts()
     total_predictions = len(result_df)
     prediction_percentage = (prediction_counts / total_predictions) * 100
@@ -141,4 +142,7 @@ if uploaded_file is not None:
     st.subheader("Prediction Percentages")
     st.write(prediction_percentage)
     
-
+    # Centered display of each class percentage
+    st.subheader("Prediksi Kelas")
+    for class_name, percentage in prediction_percentage.items():
+        st.markdown(f"<h2 style='text-align: center;'>{class_name}: {percentage:.2f}%</h2>", unsafe_allow_html=True)
